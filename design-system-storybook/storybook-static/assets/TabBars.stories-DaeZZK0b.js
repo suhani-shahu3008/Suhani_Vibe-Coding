@@ -1,0 +1,5 @@
+import{t as e}from"./TabBars-C-1SUKk3.js";var t={title:`Components/Tab bar/Tab bars`,component:e,parameters:{docs:{description:{component:"# Tab bars\nPreserved layer: `Tab bars` (COMPONENT_SET: `74:8054`).\n\n| Property | Options | Description |\n| :--- | :--- | :--- |\n| **State** | `Default`, `Active`, `Hovered`, `Focused`, `Pressed`, `Disabled` | State matrix |"}}},args:{state:`Default`,label:`All Deliveries`,badge:24,active:!1}},n={},r={args:{active:!0}};n.parameters={...n.parameters,docs:{...n.parameters?.docs,source:{originalSource:`{}`,...n.parameters?.docs?.source}}},r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
+  args: {
+    active: true
+  }
+}`,...r.parameters?.docs?.source}}};var i=[`Default`,`Active`];export{r as Active,n as Default,i as __namedExportsOrder,t as default};

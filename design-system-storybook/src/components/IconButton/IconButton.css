@@ -1,0 +1,60 @@
+/* ============================================================
+   UEDP Icon Button — Figma node 81:8976
+   All 10 variants, A–Z, exact properties applied
+   ============================================================ */
+
+.uedp-icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  user-select: none;
+  transition: background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease, box-shadow 0.15s ease;
+  color: #171717; /* Default icon/text color */
+}
+
+/* ---- Large: w=60, h=60, radius=9999px (Capsule/Circle) ---- */
+.uedp-icon-button--large {
+  width: 60px;
+  height: 60px;
+  border-radius: 9999px;
+}
+
+/* ---- Small: w=30, h=30, radius=4999.5px (Capsule/Circle) ---- */
+.uedp-icon-button--small {
+  width: 30px;
+  height: 30px;
+  border-radius: 4999.5px;
+}
+
+/* ---- State styles from Figma ---- */
+.uedp-icon-button--state-default {
+  background-color: #ffffff;
+}
+
+.uedp-icon-button--state-hovered,
+.uedp-icon-button:hover:not(:disabled):not(.uedp-icon-button--state-disabled) {
+  background-color: #f5f5f5;
+}
+
+.uedp-icon-button--state-focused,
+.uedp-icon-button:focus-visible {
+  background-color: #e5e5e5;
+  box-shadow: 0 0 0 2px #1d4ed8;
+}
+
+.uedp-icon-button--state-pressed,
+.uedp-icon-button:active:not(:disabled):not(.uedp-icon-button--state-disabled) {
+  background-color: #d4d4d4;
+}
+
+.uedp-icon-button--state-disabled,
+.uedp-icon-button:disabled {
+  background-color: #e5e5e5;
+  color: #a3a3a3;
+  cursor: not-allowed;
+  pointer-events: none;
+}

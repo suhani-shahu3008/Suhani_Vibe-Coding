@@ -1,0 +1,13 @@
+.uedp-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 0;
+  transition: transform 0.15s ease, color 0.15s ease;
+}
+.uedp-icon--dark {
+  color: var(--uedp-white, #ffffff);
+}
+.uedp-icon--light {
+  color: var(--uedp-slate-700, #334155);
+}

@@ -1,0 +1,229 @@
+/* ============================================================
+   UEDP Button — Figma node 10:166
+   All 38 variants, A–Z, exact property values
+   ============================================================
+
+   SIZES (from absoluteBoundingBox):
+     Large : 532 × 54px  |  padding: 14px 24px  |  gap: 24px
+     Small : 160 × 53px  |  padding: 16px 24px  |  gap: 40px
+
+   SHAPES (cornerRadius):
+     Capsule   : 9999px
+     Rectangle : 12px
+
+   TYPOGRAPHY:
+     Large : Lufga 20px / weight 500 / lineHeight 26.1px
+     Small : Lufga 16px / weight 400 / lineHeight 20.9px
+
+   STROKE (Secondary, strokeAlign=OUTSIDE, strokeWeight=1.5px):
+     Active / Hovered / Pressed : #64748b
+     Focused                    : #1d4ed8
+     Disabled                   : #d4d4d4
+
+   STROKE (Primary Focused only, strokeAlign=OUTSIDE, strokeWeight=2px):
+     Focused                    : #1e293b
+   ============================================================ */
+
+/* ── Base ─────────────────────────────────────────────────── */
+.uedp-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  font-family: 'Lufga', 'Inter', 'Outfit', sans-serif;
+  cursor: pointer;
+  border-style: solid;
+  outline: none;
+  text-decoration: none;
+  user-select: none;
+  white-space: nowrap;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    color 0.15s ease;
+}
+
+/* ── Sizes ────────────────────────────────────────────────── */
+/* Large: 532 × 54px, padding 14/24, gap 24, font 20/500/26.1 */
+.uedp-button--large {
+  width: 532px;
+  height: 54px;
+  padding: 14px 24px;
+  gap: 24px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26.1px;
+}
+
+/* Small: 160 × 53px, padding 16/24, gap 40, font 16/400/20.9 */
+.uedp-button--small {
+  width: 160px;
+  height: 53px;
+  padding: 16px 24px;
+  gap: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.9px;
+}
+
+/* ── Shapes ───────────────────────────────────────────────── */
+.uedp-button--capsule   { border-radius: 9999px; }
+.uedp-button--rectangle { border-radius: 12px; }
+
+/* ============================================================
+   PRIMARY — Default feedback
+   stroke: none (1px INSIDE transparent, effectively no border)
+   ============================================================ */
+
+/* Active — bg #1d4ed8, text #ffffff */
+.uedp-button--primary.uedp-button--feedback-default.uedp-button--state-active {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: transparent;
+}
+
+/* Hovered — bg #1e40af, text #ffffff */
+.uedp-button--primary.uedp-button--feedback-default.uedp-button--state-hovered,
+.uedp-button--primary.uedp-button--feedback-default:hover:not(:disabled):not(.uedp-button--state-disabled) {
+  background-color: #1e40af;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: transparent;
+}
+
+/* Focused — bg #1d4ed8, text #ffffff, stroke 2px OUTSIDE #1e293b */
+.uedp-button--primary.uedp-button--feedback-default.uedp-button--state-focused,
+.uedp-button--primary.uedp-button--feedback-default:focus-visible {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-width: 2px;
+  border-color: #1e293b;
+  outline: none;
+}
+
+/* Pressed — bg #1e3a8a, text #ffffff */
+.uedp-button--primary.uedp-button--feedback-default.uedp-button--state-pressed,
+.uedp-button--primary.uedp-button--feedback-default:active:not(:disabled):not(.uedp-button--state-disabled) {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: transparent;
+}
+
+/* Disabled — bg #cbd5e1, text #94a3b8 */
+.uedp-button--primary.uedp-button--feedback-default.uedp-button--state-disabled,
+.uedp-button--primary.uedp-button--feedback-default:disabled {
+  background-color: #cbd5e1;
+  color: #94a3b8;
+  border-width: 1px;
+  border-color: transparent;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* ============================================================
+   PRIMARY — Feedback variants (Active state, Rectangle only per Figma)
+   ============================================================ */
+
+/* Error — bg #dc2626 */
+.uedp-button--primary.uedp-button--feedback-error {
+  background-color: #dc2626;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: transparent;
+}
+.uedp-button--primary.uedp-button--feedback-error:hover:not(:disabled) { background-color: #b91c1c; }
+.uedp-button--primary.uedp-button--feedback-error:active:not(:disabled) { background-color: #991b1b; }
+
+/* Warning — bg #fb923c */
+.uedp-button--primary.uedp-button--feedback-warning {
+  background-color: #fb923c;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: transparent;
+}
+.uedp-button--primary.uedp-button--feedback-warning:hover:not(:disabled) { background-color: #f97316; }
+.uedp-button--primary.uedp-button--feedback-warning:active:not(:disabled) { background-color: #ea580c; }
+
+/* Success — bg #16a34a */
+.uedp-button--primary.uedp-button--feedback-success {
+  background-color: #16a34a;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: transparent;
+}
+.uedp-button--primary.uedp-button--feedback-success:hover:not(:disabled) { background-color: #15803d; }
+.uedp-button--primary.uedp-button--feedback-success:active:not(:disabled) { background-color: #166534; }
+
+/* Info — same as Default active (#1d4ed8) */
+.uedp-button--primary.uedp-button--feedback-info {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-width: 1px;
+  border-color: transparent;
+}
+.uedp-button--primary.uedp-button--feedback-info:hover:not(:disabled) { background-color: #1e40af; }
+.uedp-button--primary.uedp-button--feedback-info:active:not(:disabled) { background-color: #1e3a8a; }
+
+/* ============================================================
+   SECONDARY — strokeWeight 1.5px, strokeAlign OUTSIDE
+   bg transparent unless hovered/pressed
+   ============================================================ */
+
+/* Active — bg transparent, text #171717, stroke 1.5px #64748b */
+.uedp-button--secondary.uedp-button--state-active {
+  background-color: transparent;
+  color: #171717;
+  border-width: 1.5px;
+  border-color: #64748b;
+}
+
+/* Hovered — bg #f5f5f5, text #171717, stroke 1.5px #64748b */
+.uedp-button--secondary.uedp-button--state-hovered,
+.uedp-button--secondary:hover:not(:disabled):not(.uedp-button--state-disabled):not(.uedp-button--state-focused):not(.uedp-button--state-pressed) {
+  background-color: #f5f5f5;
+  color: #171717;
+  border-width: 1.5px;
+  border-color: #64748b;
+}
+
+/* Focused — bg transparent, text #171717, stroke 1.5px #1d4ed8 */
+.uedp-button--secondary.uedp-button--state-focused,
+.uedp-button--secondary:focus-visible {
+  background-color: transparent;
+  color: #171717;
+  border-width: 1.5px;
+  border-color: #1d4ed8;
+  outline: none;
+}
+
+/* Pressed — bg #e5e5e5, text #171717, stroke 1.5px #64748b */
+.uedp-button--secondary.uedp-button--state-pressed,
+.uedp-button--secondary:active:not(:disabled):not(.uedp-button--state-disabled) {
+  background-color: #e5e5e5;
+  color: #171717;
+  border-width: 1.5px;
+  border-color: #64748b;
+}
+
+/* Disabled — bg transparent, text #a3a3a3, stroke 1.5px #d4d4d4 */
+.uedp-button--secondary.uedp-button--state-disabled,
+.uedp-button--secondary:disabled {
+  background-color: transparent;
+  color: #a3a3a3;
+  border-width: 1.5px;
+  border-color: #d4d4d4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+/* ── Icon slot ────────────────────────────────────────────── */
+.uedp-button__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  /* color is set via currentColor from parent */
+}

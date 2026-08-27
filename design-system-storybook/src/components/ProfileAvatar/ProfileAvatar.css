@@ -1,0 +1,36 @@
+.uedp-profile-avatar {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 12px;
+  border-radius: var(--uedp-rounded-full, 9999px);
+  border: 1px solid var(--uedp-slate-200, #e2e8f0);
+  background-color: var(--uedp-white, #ffffff);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.uedp-profile-avatar:hover,
+.uedp-profile-avatar--state-hovered {
+  background-color: var(--uedp-slate-50, #f8fafc);
+  border-color: var(--uedp-slate-300, #cbd5e1);
+}
+
+.uedp-profile-avatar__details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.uedp-profile-avatar__name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--uedp-slate-800, #1e293b);
+  line-height: 16px;
+}
+
+.uedp-profile-avatar__role {
+  font-size: 11px;
+  color: var(--uedp-slate-500, #64748b);
+  line-height: 14px;
+}

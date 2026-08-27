@@ -1,0 +1,20 @@
+.uedp-pagination-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-top: 1px solid var(--uedp-slate-200, #e2e8f0);
+  background-color: var(--uedp-white, #ffffff);
+  border-radius: var(--uedp-rounded-xl, 12px);
+  width: 100%;
+}
+
+.uedp-pagination-row__summary {
+  font-size: 13px;
+  color: var(--uedp-slate-500, #64748b);
+}
+
+.uedp-pagination-row__bold {
+  font-weight: 600;
+  color: var(--uedp-slate-800, #1e293b);
+}

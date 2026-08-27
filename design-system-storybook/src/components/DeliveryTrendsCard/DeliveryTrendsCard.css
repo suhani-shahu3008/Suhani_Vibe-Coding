@@ -1,0 +1,57 @@
+.uedp-chart-card {
+  background-color: var(--uedp-white, #ffffff);
+  border: 1px solid var(--uedp-slate-200, #e2e8f0);
+  border-radius: var(--uedp-rounded-2xl, 16px);
+  padding: 20px;
+  box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.05);
+  font-family: inherit;
+  width: 100%;
+}
+
+.uedp-chart-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.uedp-chart-card__title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--uedp-slate-900, #0f172a);
+}
+
+.uedp-delivery-trends__legend {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.uedp-delivery-trends__legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--uedp-slate-600, #475569);
+}
+
+.uedp-delivery-trends__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+}
+.uedp-delivery-trends__dot--total { background-color: var(--uedp-indigo-600, #4f46e5); }
+.uedp-delivery-trends__dot--ontime { background-color: var(--uedp-emerald-500, #10b981); }
+
+.uedp-delivery-trends__graph-wrap {
+  width: 100%;
+}
+
+.uedp-delivery-trends__svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}

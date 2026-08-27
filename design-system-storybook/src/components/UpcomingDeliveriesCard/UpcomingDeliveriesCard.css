@@ -1,0 +1,60 @@
+.uedp-upcoming-deliveries__view-more {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  background: transparent;
+  color: var(--uedp-indigo-600, #4f46e5);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.uedp-upcoming-deliveries__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.uedp-upcoming-deliveries__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+  border-radius: var(--uedp-rounded-xl, 12px);
+  background-color: var(--uedp-slate-50, #f8fafc);
+  border: 1px solid var(--uedp-slate-100, #f1f5f9);
+}
+
+.uedp-upcoming-deliveries__left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.uedp-upcoming-deliveries__icon-wrap {
+  width: 32px;
+  height: 32px;
+  border-radius: 9999px;
+  background-color: var(--uedp-slate-900, #0f172a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uedp-upcoming-deliveries__company {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--uedp-slate-800, #1e293b);
+}
+
+.uedp-upcoming-deliveries__sub {
+  font-size: 12px;
+  color: var(--uedp-slate-500, #64748b);
+  margin-top: 2px;
+}
+
+.uedp-upcoming-deliveries__id {
+  font-weight: 600;
+  color: var(--uedp-indigo-600, #4f46e5);
+}

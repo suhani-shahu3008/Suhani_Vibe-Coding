@@ -1,0 +1,63 @@
+import"./iframe-B30LOA5f.js";import{t as e}from"./react-BRf3e3jg.js";import{t}from"./jsx-runtime-Wl2OHS-O.js";import{t as n}from"./Icons-p6aeZgMO.js";e();var r=t(),i=({typeVariant:e=`Card 1`,title:t=`Active Deliveries`,value:i=`1,284`,change:a=`+12.5%`,positive:o=!0,iconName:s=`Truck 2`,description:c=`Total active routes on track across all delivery hubs today.`})=>(0,r.jsxs)(`div`,{className:`uedp-card uedp-card--${e.toLowerCase().replace(/\s+/g,`-`)}`,children:[(0,r.jsxs)(`div`,{className:`uedp-card__header`,children:[(0,r.jsx)(`div`,{className:`uedp-card__icon-wrap`,children:(0,r.jsx)(n,{name:s,size:20,mode:`Dark`})}),(0,r.jsxs)(`span`,{className:`uedp-card__badge ${o?`uedp-card__badge--positive`:`uedp-card__badge--negative`}`,children:[o?`↑ `:`↓ `,` `,a]})]}),(0,r.jsxs)(`div`,{className:`uedp-card__body`,children:[(0,r.jsx)(`span`,{className:`uedp-card__title`,children:t}),(0,r.jsx)(`div`,{className:`uedp-card__value`,children:i}),e!==`Card 1`&&(0,r.jsx)(`p`,{className:`uedp-card__description`,children:c})]})]});i.__docgenInfo={description:``,methods:[],displayName:`Cards`,props:{typeVariant:{required:!1,tsType:{name:`union`,raw:`'Card 1' | 'Card 2' | 'Card 3' | 'Card 4'`,elements:[{name:`literal`,value:`'Card 1'`},{name:`literal`,value:`'Card 2'`},{name:`literal`,value:`'Card 3'`},{name:`literal`,value:`'Card 4'`}]},description:``,defaultValue:{value:`'Card 1'`,computed:!1}},title:{required:!1,tsType:{name:`string`},description:``,defaultValue:{value:`'Active Deliveries'`,computed:!1}},value:{required:!1,tsType:{name:`union`,raw:`string | number`,elements:[{name:`string`},{name:`number`}]},description:``,defaultValue:{value:`'1,284'`,computed:!1}},change:{required:!1,tsType:{name:`string`},description:``,defaultValue:{value:`'+12.5%'`,computed:!1}},positive:{required:!1,tsType:{name:`boolean`},description:``,defaultValue:{value:`true`,computed:!1}},iconName:{required:!1,tsType:{name:`union`,raw:`IconName | string`,elements:[{name:`union`,raw:`| 'Route'
+| 'Profile 2'
+| 'Cart'
+| 'Truck 2'
+| 'Location filled'
+| 'Call'
+| 'Upload'
+| 'Delete'
+| 'Edit 2'
+| 'Tick'
+| 'Clock 2'
+| 'Clock'
+| 'Stock up'
+| 'Right Arrow'
+| 'Left Arrow'
+| 'Up Arrow'
+| 'Down Arrow'
+| 'Search'
+| 'Settings'
+| 'Filter'
+| 'Notification'
+| 'Download'
+| 'Add'
+| 'Minus'
+| 'Close'
+| 'Calendar'
+| 'Eye'
+| 'Eye Slash'
+| 'Alert'
+| 'Success'
+| 'Info'
+| 'Layers'
+| 'Bar Chart'
+| 'Pie Chart'
+| 'Navigation'
+| 'Globe'
+| 'Radio'
+| 'Sliders'
+| 'More Vertical'
+| 'More Horizontal'
+| 'Refresh'
+| 'Logout'
+| 'Maximize'
+| 'Minimize'
+| 'Zoom In'
+| 'Zoom Out'
+| 'Lock'
+| 'Unlock'
+| 'Shield'
+| 'Help'
+| 'Document'
+| 'Mail'`,elements:[{name:`literal`,value:`'Route'`},{name:`literal`,value:`'Profile 2'`},{name:`literal`,value:`'Cart'`},{name:`literal`,value:`'Truck 2'`},{name:`literal`,value:`'Location filled'`},{name:`literal`,value:`'Call'`},{name:`literal`,value:`'Upload'`},{name:`literal`,value:`'Delete'`},{name:`literal`,value:`'Edit 2'`},{name:`literal`,value:`'Tick'`},{name:`literal`,value:`'Clock 2'`},{name:`literal`,value:`'Clock'`},{name:`literal`,value:`'Stock up'`},{name:`literal`,value:`'Right Arrow'`},{name:`literal`,value:`'Left Arrow'`},{name:`literal`,value:`'Up Arrow'`},{name:`literal`,value:`'Down Arrow'`},{name:`literal`,value:`'Search'`},{name:`literal`,value:`'Settings'`},{name:`literal`,value:`'Filter'`},{name:`literal`,value:`'Notification'`},{name:`literal`,value:`'Download'`},{name:`literal`,value:`'Add'`},{name:`literal`,value:`'Minus'`},{name:`literal`,value:`'Close'`},{name:`literal`,value:`'Calendar'`},{name:`literal`,value:`'Eye'`},{name:`literal`,value:`'Eye Slash'`},{name:`literal`,value:`'Alert'`},{name:`literal`,value:`'Success'`},{name:`literal`,value:`'Info'`},{name:`literal`,value:`'Layers'`},{name:`literal`,value:`'Bar Chart'`},{name:`literal`,value:`'Pie Chart'`},{name:`literal`,value:`'Navigation'`},{name:`literal`,value:`'Globe'`},{name:`literal`,value:`'Radio'`},{name:`literal`,value:`'Sliders'`},{name:`literal`,value:`'More Vertical'`},{name:`literal`,value:`'More Horizontal'`},{name:`literal`,value:`'Refresh'`},{name:`literal`,value:`'Logout'`},{name:`literal`,value:`'Maximize'`},{name:`literal`,value:`'Minimize'`},{name:`literal`,value:`'Zoom In'`},{name:`literal`,value:`'Zoom Out'`},{name:`literal`,value:`'Lock'`},{name:`literal`,value:`'Unlock'`},{name:`literal`,value:`'Shield'`},{name:`literal`,value:`'Help'`},{name:`literal`,value:`'Document'`},{name:`literal`,value:`'Mail'`}]},{name:`string`}]},description:``,defaultValue:{value:`'Truck 2'`,computed:!1}},description:{required:!1,tsType:{name:`string`},description:``,defaultValue:{value:`'Total active routes on track across all delivery hubs today.'`,computed:!1}}}};var a={title:`Components/Cards/Cards`,component:i,parameters:{docs:{description:{component:"# Cards (Metric & KPI Cards)\nPreserved layer: `Cards` (COMPONENT_SET: `88:10691`).\n\n| Property | Options | Description |\n| :--- | :--- | :--- |\n| **Type** | `Card 1`, `Card 2`, `Card 3`, `Card 4` | Layout style variant |"}}},argTypes:{typeVariant:{control:`radio`,options:[`Card 1`,`Card 2`,`Card 3`,`Card 4`]}},args:{typeVariant:`Card 1`,title:`Active Deliveries`,value:`1,284`,change:`+12.5%`,positive:!0,iconName:`Truck 2`}},o={},s={render:()=>(0,r.jsxs)(`div`,{style:{display:`grid`,gridTemplateColumns:`repeat(auto-fit, minmax(240px, 1fr))`,gap:`16px`},children:[(0,r.jsx)(i,{typeVariant:`Card 1`,title:`Active Fleet`,value:`342`,change:`+8.2%`,positive:!0,iconName:`Truck 2`}),(0,r.jsx)(i,{typeVariant:`Card 2`,title:`Delayed Dispatches`,value:`14`,change:`-3.1%`,positive:!1,iconName:`Alert`}),(0,r.jsx)(i,{typeVariant:`Card 3`,title:`Avg Transit Time`,value:`28m`,change:`-5.4%`,positive:!0,iconName:`Clock`}),(0,r.jsx)(i,{typeVariant:`Card 4`,title:`Fulfilled Orders`,value:`9,820`,change:`+18.9%`,positive:!0,iconName:`Success`})]})};o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{}`,...o.parameters?.docs?.source}}},s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  render: () => <div style={{
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+    gap: '16px'
+  }}>
+      <Cards typeVariant="Card 1" title="Active Fleet" value="342" change="+8.2%" positive={true} iconName="Truck 2" />
+      <Cards typeVariant="Card 2" title="Delayed Dispatches" value="14" change="-3.1%" positive={false} iconName="Alert" />
+      <Cards typeVariant="Card 3" title="Avg Transit Time" value="28m" change="-5.4%" positive={true} iconName="Clock" />
+      <Cards typeVariant="Card 4" title="Fulfilled Orders" value="9,820" change="+18.9%" positive={true} iconName="Success" />
+    </div>
+}`,...s.parameters?.docs?.source}}};var c=[`Card1`,`CardGallery`];export{o as Card1,s as CardGallery,c as __namedExportsOrder,a as default};

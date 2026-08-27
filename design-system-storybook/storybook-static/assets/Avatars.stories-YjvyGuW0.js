@@ -1,0 +1,5 @@
+import{t as e}from"./Avatars-svST3mUj.js";var t={title:`Components/Avatars/Avatars`,component:e,parameters:{docs:{description:{component:"# Avatars\nPreserved layers: `Big Avatars` (`45:5629`) & `Small Avatars` (`45:5913`).\n\n| Property | Options | Description |\n| :--- | :--- | :--- |\n| **size** | `big` (48px), `small` (32px) | Avatar dimensions |\n| **status** | `online`, `offline`, `busy`, `away` | Activity indicator dot |"}}},argTypes:{size:{control:`radio`,options:[`big`,`small`]},status:{control:`select`,options:[`online`,`offline`,`busy`,`away`]},name:{control:`text`}},args:{size:`big`,status:`online`,name:`Sophia Chen`}},n={},r={args:{size:`small`}};n.parameters={...n.parameters,docs:{...n.parameters?.docs,source:{originalSource:`{}`,...n.parameters?.docs?.source}}},r.parameters={...r.parameters,docs:{...r.parameters?.docs,source:{originalSource:`{
+  args: {
+    size: 'small'
+  }
+}`,...r.parameters?.docs?.source}}};var i=[`BigAvatar`,`SmallAvatar`];export{n as BigAvatar,r as SmallAvatar,i as __namedExportsOrder,t as default};

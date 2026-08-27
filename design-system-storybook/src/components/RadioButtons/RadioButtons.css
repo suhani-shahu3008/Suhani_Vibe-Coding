@@ -1,0 +1,59 @@
+.uedp-radio {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+  font-family: inherit;
+}
+
+.uedp-radio__input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.uedp-radio__control {
+  width: 20px;
+  height: 20px;
+  border-radius: var(--uedp-rounded-full, 9999px);
+  border: 2px solid var(--uedp-slate-300, #cbd5e1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--uedp-white, #ffffff);
+  transition: all 0.15s ease;
+}
+
+.uedp-radio:hover .uedp-radio__control,
+.uedp-radio--state-hovered .uedp-radio__control {
+  border-color: var(--uedp-slate-500, #64748b);
+}
+
+.uedp-radio--selected .uedp-radio__control {
+  border-color: var(--uedp-slate-900, #0f172a);
+}
+
+.uedp-radio__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background-color: var(--uedp-slate-900, #0f172a);
+  transform: scale(0);
+  transition: transform 0.15s ease;
+}
+
+.uedp-radio--selected .uedp-radio__dot {
+  transform: scale(1);
+}
+
+.uedp-radio__label {
+  font-size: 14px;
+  color: var(--uedp-slate-800, #1e293b);
+  font-weight: 500;
+}
+
+.uedp-radio--state-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

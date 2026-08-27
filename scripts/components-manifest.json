@@ -1,0 +1,1827 @@
+[
+  {
+    "pageName": "Buttons",
+    "name": "Button",
+    "type": "COMPONENT_SET",
+    "id": "10:166",
+    "childrenCount": 38,
+    "variants": [
+      {
+        "id": "9:113",
+        "name": "Type=Primary, State=Disabled, Shape=Capsule, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2795",
+        "name": "Type=Primary, State=Disabled, Shape=Rectangle, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "11:177",
+        "name": "Type=Primary, State=Disabled, Shape=Rectangle, Feedback=Default, Size=Small"
+      },
+      {
+        "id": "9:114",
+        "name": "Type=Primary, State=Pressed, Shape=Capsule, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2797",
+        "name": "Type=Primary, State=Pressed, Shape=Rectangle, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "11:179",
+        "name": "Type=Primary, State=Pressed, Shape=Rectangle, Feedback=Default, Size=Small"
+      },
+      {
+        "id": "9:111",
+        "name": "Type=Primary, State=Focused, Shape=Capsule, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2799",
+        "name": "Type=Primary, State=Focused, Shape=Rectangle, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "11:181",
+        "name": "Type=Primary, State=Focused, Shape=Rectangle, Feedback=Default, Size=Small"
+      },
+      {
+        "id": "9:112",
+        "name": "Type=Primary, State=Hovered, Shape=Capsule, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2801",
+        "name": "Type=Primary, State=Hovered, Shape=Rectangle, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "11:183",
+        "name": "Type=Primary, State=Hovered, Shape=Rectangle, Feedback=Default, Size=Small"
+      },
+      {
+        "id": "9:115",
+        "name": "Type=Primary, State=Active, Shape=Capsule, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2803",
+        "name": "Type=Primary, State=Active, Shape=Rectangle, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2865",
+        "name": "Type=Primary, State=Active, Shape=Rectangle, Feedback=Error, Size=Large"
+      },
+      {
+        "id": "24:2873",
+        "name": "Type=Primary, State=Active, Shape=Rectangle, Feedback=Warnin, Size=Large"
+      },
+      {
+        "id": "24:2881",
+        "name": "Type=Primary, State=Active, Shape=Rectangle, Feedback=Success, Size=Large"
+      },
+      {
+        "id": "24:2889",
+        "name": "Type=Primary, State=Active, Shape=Rectangle, Feedback=Info, Size=Large"
+      },
+      {
+        "id": "11:185",
+        "name": "Type=Primary, State=Active, Shape=Rectangle, Feedback=Default, Size=Small"
+      },
+      {
+        "id": "23:2742",
+        "name": "Type=Primary, State=Active, Shape=Rectangle, Feedback=Error, Size=Small"
+      },
+      {
+        "id": "24:2754",
+        "name": "Type=Primary, State=Active, Shape=Rectangle, Feedback=Warning, Size=Small"
+      },
+      {
+        "id": "24:2762",
+        "name": "Type=Primary, State=Active, Shape=Rectangle, Feedback=Success, Size=Small"
+      },
+      {
+        "id": "24:2770",
+        "name": "Type=Primary, State=Active, Shape=Rectangle, Feedback=Info, Size=Small"
+      },
+      {
+        "id": "10:165",
+        "name": "Type=Secondary, State=Active, Shape=Capsule, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2805",
+        "name": "Type=Secondary, State=Active, Shape=Rectangle, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "23:786",
+        "name": "Type=Secondary, State=Active, Shape=Rectangle, Feedback=Default, Size=Small"
+      },
+      {
+        "id": "10:163",
+        "name": "Type=Secondary, State=Hovered, Shape=Capsule, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2807",
+        "name": "Type=Secondary, State=Hovered, Shape=Rectangle, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "23:788",
+        "name": "Type=Secondary, State=Hovered, Shape=Rectangle, Feedback=Default, Size=Small"
+      },
+      {
+        "id": "10:164",
+        "name": "Type=Secondary, State=Focused, Shape=Capsule, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2809",
+        "name": "Type=Secondary, State=Focused, Shape=Rectangle, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "23:790",
+        "name": "Type=Secondary, State=Focused, Shape=Rectangle, Feedback=Default, Size=Small"
+      },
+      {
+        "id": "10:162",
+        "name": "Type=Secondary, State=Pressed, Shape=Capsule, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2811",
+        "name": "Type=Secondary, State=Pressed, Shape=Rectangle, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "23:792",
+        "name": "Type=Secondary, State=Pressed, Shape=Rectangle, Feedback=Default, Size=Small"
+      },
+      {
+        "id": "10:161",
+        "name": "Type=Secondary, State=Disabled, Shape=Capsule, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "24:2813",
+        "name": "Type=Secondary, State=Disabled, Shape=Rectangle, Feedback=Default, Size=Large"
+      },
+      {
+        "id": "23:794",
+        "name": "Type=Secondary, State=Disabled, Shape=Rectangle, Feedback=Default, Size=Small"
+      }
+    ]
+  },
+  {
+    "pageName": "Buttons",
+    "name": "Icons for Instance Swaps",
+    "type": "FRAME",
+    "id": "17:679",
+    "childrenCount": 52,
+    "variants": []
+  },
+  {
+    "pageName": "Buttons",
+    "name": "Icon Button",
+    "type": "COMPONENT_SET",
+    "id": "81:8976",
+    "childrenCount": 10,
+    "variants": [
+      {
+        "id": "81:8977",
+        "name": "State=Default, Size=Large"
+      },
+      {
+        "id": "81:9058",
+        "name": "State=Default, Size=Small"
+      },
+      {
+        "id": "81:8979",
+        "name": "State=Hovered, Size=Large"
+      },
+      {
+        "id": "81:9060",
+        "name": "State=Hovered, Size=Small"
+      },
+      {
+        "id": "81:8981",
+        "name": "State=Focused, Size=Large"
+      },
+      {
+        "id": "81:9062",
+        "name": "State=Focused, Size=Small"
+      },
+      {
+        "id": "81:8983",
+        "name": "State=Pressed, Size=Large"
+      },
+      {
+        "id": "81:9064",
+        "name": "State=Pressed, Size=Small"
+      },
+      {
+        "id": "81:8985",
+        "name": "State=Disabled, Size=Large"
+      },
+      {
+        "id": "81:9066",
+        "name": "State=Disabled, Size=Small"
+      }
+    ]
+  },
+  {
+    "pageName": "Pagination",
+    "name": "Pagination",
+    "type": "COMPONENT_SET",
+    "id": "202:180",
+    "childrenCount": 5,
+    "variants": [
+      {
+        "id": "202:90",
+        "name": "State=Default"
+      },
+      {
+        "id": "202:108",
+        "name": "State=Hovered"
+      },
+      {
+        "id": "202:126",
+        "name": "State=Focused"
+      },
+      {
+        "id": "202:144",
+        "name": "State=Pressed"
+      },
+      {
+        "id": "202:162",
+        "name": "State=Disabled"
+      }
+    ]
+  },
+  {
+    "pageName": "Pagination",
+    "name": "Pagination Row",
+    "type": "COMPONENT",
+    "id": "202:181",
+    "childrenCount": 2,
+    "variants": []
+  },
+  {
+    "pageName": "Navigation bar",
+    "name": "Navigation bar Menu",
+    "type": "COMPONENT_SET",
+    "id": "36:3500",
+    "childrenCount": 15,
+    "variants": [
+      {
+        "id": "36:3499",
+        "name": "State=Default, Type=Collapsed, Menu Type=Menu"
+      },
+      {
+        "id": "36:3495",
+        "name": "State=Hovered, Type=Collapsed, Menu Type=Menu"
+      },
+      {
+        "id": "36:3494",
+        "name": "State=Focused, Type=Collapsed, Menu Type=Menu"
+      },
+      {
+        "id": "36:3498",
+        "name": "State=Pressed, Type=Collapsed, Menu Type=Menu"
+      },
+      {
+        "id": "36:3493",
+        "name": "State=Disabled, Type=Collapsed, Menu Type=Menu"
+      },
+      {
+        "id": "36:3497",
+        "name": "State=Default, Type=Expanded, Menu Type=Menu"
+      },
+      {
+        "id": "36:3496",
+        "name": "State=Hovered, Type=Expanded, Menu Type=Menu"
+      },
+      {
+        "id": "36:3492",
+        "name": "State=Focused, Type=Expanded, Menu Type=Menu"
+      },
+      {
+        "id": "36:3491",
+        "name": "State=Pressed, Type=Expanded, Menu Type=Menu"
+      },
+      {
+        "id": "36:3490",
+        "name": "State=Disabled, Type=Expanded, Menu Type=Menu"
+      },
+      {
+        "id": "36:4126",
+        "name": "State=Default, Type=Expanded, Menu Type=Sub Menu"
+      },
+      {
+        "id": "38:4142",
+        "name": "State=Hovered, Type=Expanded, Menu Type=Sub Menu"
+      },
+      {
+        "id": "38:4158",
+        "name": "State=Focused, Type=Expanded, Menu Type=Sub Menu"
+      },
+      {
+        "id": "38:4174",
+        "name": "State=Pressed, Type=Expanded, Menu Type=Sub Menu"
+      },
+      {
+        "id": "38:4190",
+        "name": "State=Disabled, Type=Expanded, Menu Type=Sub Menu"
+      }
+    ]
+  },
+  {
+    "pageName": "Navigation bar",
+    "name": "Side Navigation Bar - Collapsed",
+    "type": "COMPONENT_SET",
+    "id": "41:4732",
+    "childrenCount": 12,
+    "variants": [
+      {
+        "id": "41:4731",
+        "name": "Frame=True, No. of Icons=1"
+      },
+      {
+        "id": "41:4730",
+        "name": "Frame=False, No. of Icons=1"
+      },
+      {
+        "id": "41:4728",
+        "name": "Frame=True, No. of Icons=2"
+      },
+      {
+        "id": "41:4726",
+        "name": "Frame=False, No. of Icons=2"
+      },
+      {
+        "id": "41:4723",
+        "name": "Frame=True, No. of Icons=3"
+      },
+      {
+        "id": "41:4725",
+        "name": "Frame=False, No. of Icons=3"
+      },
+      {
+        "id": "41:4727",
+        "name": "Frame=True, No. of Icons=4"
+      },
+      {
+        "id": "41:4722",
+        "name": "Frame=False, No. of Icons=4"
+      },
+      {
+        "id": "41:4729",
+        "name": "Frame=True, No. of Icons=5"
+      },
+      {
+        "id": "41:4724",
+        "name": "Frame=False, No. of Icons=5"
+      },
+      {
+        "id": "41:4721",
+        "name": "Frame=True, No. of Icons=6"
+      },
+      {
+        "id": "41:4720",
+        "name": "Frame=False, No. of Icons=6"
+      }
+    ]
+  },
+  {
+    "pageName": "Navigation bar",
+    "name": "Side Navigation Bar - Expanded",
+    "type": "COMPONENT_SET",
+    "id": "41:4745",
+    "childrenCount": 12,
+    "variants": [
+      {
+        "id": "41:4741",
+        "name": "Frame=True, No. of Icons=1"
+      },
+      {
+        "id": "41:4743",
+        "name": "Frame=False, No. of Icons=1"
+      },
+      {
+        "id": "41:4740",
+        "name": "Frame=True, No. of Icons=2"
+      },
+      {
+        "id": "41:4733",
+        "name": "Frame=False, No. of Icons=2"
+      },
+      {
+        "id": "41:4742",
+        "name": "Frame=True, No. of Icons=3"
+      },
+      {
+        "id": "41:4739",
+        "name": "Frame=False, No. of Icons=3"
+      },
+      {
+        "id": "41:4736",
+        "name": "Frame=True, No. of Icons=4"
+      },
+      {
+        "id": "41:4738",
+        "name": "Frame=False, No. of Icons=4"
+      },
+      {
+        "id": "41:4734",
+        "name": "Frame=True, No. of Icons=5"
+      },
+      {
+        "id": "41:4744",
+        "name": "Frame=False, No. of Icons=5"
+      },
+      {
+        "id": "41:4735",
+        "name": "Frame=True, No. of Icons=6"
+      },
+      {
+        "id": "41:4737",
+        "name": "Frame=False, No. of Icons=6"
+      }
+    ]
+  },
+  {
+    "pageName": "Navigation bar",
+    "name": "Side Navigation Bar - Expanded (Sub menu)",
+    "type": "COMPONENT_SET",
+    "id": "41:4756",
+    "childrenCount": 10,
+    "variants": [
+      {
+        "id": "41:4755",
+        "name": "Frame=True, No. of Sub-menus=1"
+      },
+      {
+        "id": "41:4751",
+        "name": "Frame=False, No. of Sub-menus=1"
+      },
+      {
+        "id": "41:4753",
+        "name": "Frame=True, No. of Sub-menus=2"
+      },
+      {
+        "id": "41:4750",
+        "name": "Frame=False, No. of Sub-menus=2"
+      },
+      {
+        "id": "41:4749",
+        "name": "Frame=True, No. of Sub-menus=3"
+      },
+      {
+        "id": "41:4752",
+        "name": "Frame=False, No. of Sub-menus=3"
+      },
+      {
+        "id": "41:4748",
+        "name": "Frame=True, No. of Sub-menus=4"
+      },
+      {
+        "id": "41:4747",
+        "name": "Frame=False, No. of Sub-menus=4"
+      },
+      {
+        "id": "41:4754",
+        "name": "Frame=True, No. of Sub-menus=5"
+      },
+      {
+        "id": "41:4746",
+        "name": "Frame=False, No. of Sub-menus=5"
+      }
+    ]
+  },
+  {
+    "pageName": "Search bar",
+    "name": "Search bar",
+    "type": "COMPONENT_SET",
+    "id": "44:5165",
+    "childrenCount": 8,
+    "variants": [
+      {
+        "id": "44:5164",
+        "name": "State=Default"
+      },
+      {
+        "id": "44:5159",
+        "name": "State=Disabled"
+      },
+      {
+        "id": "44:5161",
+        "name": "State=Typing"
+      },
+      {
+        "id": "44:5163",
+        "name": "State=Filled"
+      },
+      {
+        "id": "44:5160",
+        "name": "State=Error"
+      },
+      {
+        "id": "44:5158",
+        "name": "State=Focused"
+      },
+      {
+        "id": "84:9685",
+        "name": "State=Pressed"
+      },
+      {
+        "id": "44:5162",
+        "name": "State=Hovered"
+      }
+    ]
+  },
+  {
+    "pageName": "Search bar",
+    "name": "Search bar",
+    "type": "COMPONENT_SET",
+    "id": "44:5271",
+    "childrenCount": 8,
+    "variants": [
+      {
+        "id": "44:5272",
+        "name": "State=Default"
+      },
+      {
+        "id": "44:5277",
+        "name": "State=Disabled"
+      },
+      {
+        "id": "44:5282",
+        "name": "State=Typing"
+      },
+      {
+        "id": "44:5289",
+        "name": "State=Filled"
+      },
+      {
+        "id": "44:5294",
+        "name": "State=Error"
+      },
+      {
+        "id": "44:5299",
+        "name": "State=Focused"
+      },
+      {
+        "id": "84:9690",
+        "name": "State=Pressed"
+      },
+      {
+        "id": "44:5304",
+        "name": "State=Hovered"
+      }
+    ]
+  },
+  {
+    "pageName": "Avatars",
+    "name": "Big Avatars",
+    "type": "COMPONENT",
+    "id": "45:5629",
+    "childrenCount": 1,
+    "variants": []
+  },
+  {
+    "pageName": "Avatars",
+    "name": "Small Avatars",
+    "type": "COMPONENT",
+    "id": "45:5913",
+    "childrenCount": 1,
+    "variants": []
+  },
+  {
+    "pageName": "Profile Avatar",
+    "name": "Profile Avatar",
+    "type": "COMPONENT_SET",
+    "id": "80:8888",
+    "childrenCount": 4,
+    "variants": [
+      {
+        "id": "80:8887",
+        "name": "State=Default"
+      },
+      {
+        "id": "80:8886",
+        "name": "State=Hovered"
+      },
+      {
+        "id": "80:8885",
+        "name": "State=Focused"
+      },
+      {
+        "id": "80:8884",
+        "name": "State=Pressed"
+      }
+    ]
+  },
+  {
+    "pageName": "Header",
+    "name": "Header",
+    "type": "COMPONENT",
+    "id": "82:9262",
+    "childrenCount": 2,
+    "variants": []
+  },
+  {
+    "pageName": "Header",
+    "name": "Table Header",
+    "type": "COMPONENT",
+    "id": "164:1299",
+    "childrenCount": 2,
+    "variants": []
+  },
+  {
+    "pageName": "Input Field",
+    "name": "Input field",
+    "type": "COMPONENT_SET",
+    "id": "85:9820",
+    "childrenCount": 16,
+    "variants": [
+      {
+        "id": "85:9819",
+        "name": "Type=Filled, State=Default"
+      },
+      {
+        "id": "85:9810",
+        "name": "Type=Filled, State=Hovered"
+      },
+      {
+        "id": "85:9814",
+        "name": "Type=Filled, State=Focused"
+      },
+      {
+        "id": "85:9813",
+        "name": "Type=Filled, State=Pressed"
+      },
+      {
+        "id": "85:9811",
+        "name": "Type=Filled, State=Typing"
+      },
+      {
+        "id": "85:9818",
+        "name": "Type=Filled, State=Filled"
+      },
+      {
+        "id": "85:9817",
+        "name": "Type=Filled, State=Error"
+      },
+      {
+        "id": "85:9809",
+        "name": "Type=Filled, State=Disabled"
+      },
+      {
+        "id": "85:9816",
+        "name": "Type=Outlined, State=Default"
+      },
+      {
+        "id": "85:9808",
+        "name": "Type=Outlined, State=Hovered"
+      },
+      {
+        "id": "85:9807",
+        "name": "Type=Outlined, State=Focused"
+      },
+      {
+        "id": "85:9815",
+        "name": "Type=Outlined, State=Pressed"
+      },
+      {
+        "id": "85:9806",
+        "name": "Type=Outlined, State=Typing"
+      },
+      {
+        "id": "85:9805",
+        "name": "Type=Outlined, State=Filled"
+      },
+      {
+        "id": "85:9804",
+        "name": "Type=Outlined, State=Error"
+      },
+      {
+        "id": "85:9812",
+        "name": "Type=Outlined, State=Disabled"
+      }
+    ]
+  },
+  {
+    "pageName": "Text Field",
+    "name": "Text field",
+    "type": "COMPONENT_SET",
+    "id": "85:10177",
+    "childrenCount": 8,
+    "variants": [
+      {
+        "id": "85:10176",
+        "name": "State=Default"
+      },
+      {
+        "id": "85:10175",
+        "name": "State=Hovered"
+      },
+      {
+        "id": "85:10174",
+        "name": "State=Focused"
+      },
+      {
+        "id": "85:10173",
+        "name": "State=Pressed"
+      },
+      {
+        "id": "85:10172",
+        "name": "State=Typing"
+      },
+      {
+        "id": "85:10171",
+        "name": "State=Filled"
+      },
+      {
+        "id": "85:10170",
+        "name": "State=Error"
+      },
+      {
+        "id": "85:10169",
+        "name": "State=Disabled"
+      }
+    ]
+  },
+  {
+    "pageName": "Table Rows",
+    "name": "Table",
+    "type": "FRAME",
+    "id": "170:1209",
+    "childrenCount": 1,
+    "variants": []
+  },
+  {
+    "pageName": "Table Rows",
+    "name": "Table Header Row",
+    "type": "COMPONENT_SET",
+    "id": "179:1512",
+    "childrenCount": 1,
+    "variants": [
+      {
+        "id": "179:1470",
+        "name": "Variant=Header"
+      }
+    ]
+  },
+  {
+    "pageName": "Table Rows",
+    "name": "Table Row",
+    "type": "COMPONENT_SET",
+    "id": "179:1513",
+    "childrenCount": 1,
+    "variants": [
+      {
+        "id": "179:1485",
+        "name": "Variant=Row"
+      }
+    ]
+  },
+  {
+    "pageName": "Cards",
+    "name": "Cards",
+    "type": "COMPONENT_SET",
+    "id": "88:10691",
+    "childrenCount": 4,
+    "variants": [
+      {
+        "id": "88:10690",
+        "name": "Type=Card 1"
+      },
+      {
+        "id": "88:10689",
+        "name": "Type=Card 4"
+      },
+      {
+        "id": "88:10688",
+        "name": "Type=Card 2"
+      },
+      {
+        "id": "88:10687",
+        "name": "Type=Card 3"
+      }
+    ]
+  },
+  {
+    "pageName": "Radio button",
+    "name": "Radio buttons",
+    "type": "COMPONENT_SET",
+    "id": "46:6245",
+    "childrenCount": 10,
+    "variants": [
+      {
+        "id": "46:6244",
+        "name": "State=Disabled, Selected=False"
+      },
+      {
+        "id": "46:6239",
+        "name": "State=Pressed, Selected=False"
+      },
+      {
+        "id": "46:6242",
+        "name": "State=Focused, Selected=False"
+      },
+      {
+        "id": "46:6238",
+        "name": "State=Hovered, Selected=False"
+      },
+      {
+        "id": "46:6241",
+        "name": "State=Enabled, Selected=False"
+      },
+      {
+        "id": "46:6237",
+        "name": "State=Disabled, Selected=True"
+      },
+      {
+        "id": "46:6243",
+        "name": "State=Pressed, Selected=True"
+      },
+      {
+        "id": "46:6235",
+        "name": "State=Focused, Selected=True"
+      },
+      {
+        "id": "46:6240",
+        "name": "State=Hovered, Selected=True"
+      },
+      {
+        "id": "46:6236",
+        "name": "State=Enabled, Selected=True"
+      }
+    ]
+  },
+  {
+    "pageName": "Toggle",
+    "name": "Toggle",
+    "type": "COMPONENT_SET",
+    "id": "56:6962",
+    "childrenCount": 10,
+    "variants": [
+      {
+        "id": "56:6957",
+        "name": "Type=Primary, State=Enabled"
+      },
+      {
+        "id": "56:6960",
+        "name": "Type=Success, State=Enabled"
+      },
+      {
+        "id": "56:6961",
+        "name": "Type=Primary, State=Hovered"
+      },
+      {
+        "id": "56:6958",
+        "name": "Type=Success, State=Hovered"
+      },
+      {
+        "id": "56:6956",
+        "name": "Type=Primary, State=Focused"
+      },
+      {
+        "id": "56:6959",
+        "name": "Type=Success, State=Focused"
+      },
+      {
+        "id": "56:6954",
+        "name": "Type=Primary, State=Pressed"
+      },
+      {
+        "id": "56:6953",
+        "name": "Type=Success, State=Pressed"
+      },
+      {
+        "id": "56:6952",
+        "name": "Type=Primary, State=Disabled"
+      },
+      {
+        "id": "56:6955",
+        "name": "Type=Success, State=Disabled"
+      }
+    ]
+  },
+  {
+    "pageName": "Checkboxes",
+    "name": "Checkboxes",
+    "type": "COMPONENT_SET",
+    "id": "57:7420",
+    "childrenCount": 20,
+    "variants": [
+      {
+        "id": "57:7419",
+        "name": "Type=Error, Checked=False, State=Disabled"
+      },
+      {
+        "id": "57:7416",
+        "name": "Type=Error, Checked=False, State=Pressed"
+      },
+      {
+        "id": "57:7415",
+        "name": "Type=Error, Checked=False, State=Focused"
+      },
+      {
+        "id": "57:7418",
+        "name": "Type=Error, Checked=False, State=Hovered"
+      },
+      {
+        "id": "57:7412",
+        "name": "Type=Error, Checked=False, State=Enabled"
+      },
+      {
+        "id": "57:7411",
+        "name": "Type=Error, Checked=True, State=Disabled"
+      },
+      {
+        "id": "57:7410",
+        "name": "Type=Error, Checked=True, State=Pressed"
+      },
+      {
+        "id": "57:7405",
+        "name": "Type=Error, Checked=True, State=Focused"
+      },
+      {
+        "id": "57:7414",
+        "name": "Type=Error, Checked=True, State=Hovered"
+      },
+      {
+        "id": "57:7409",
+        "name": "Type=Error, Checked=True, State=Enabled"
+      },
+      {
+        "id": "57:7408",
+        "name": "Type=Primary, Checked=False, State=Disabled"
+      },
+      {
+        "id": "57:7417",
+        "name": "Type=Primary, Checked=False, State=Pressed"
+      },
+      {
+        "id": "57:7404",
+        "name": "Type=Primary, Checked=False, State=Focused"
+      },
+      {
+        "id": "57:7403",
+        "name": "Type=Primary, Checked=False, State=Hovered"
+      },
+      {
+        "id": "57:7402",
+        "name": "Type=Primary, Checked=False, State=Enabled"
+      },
+      {
+        "id": "57:7413",
+        "name": "Type=Primary, Checked=True, State=Disabled"
+      },
+      {
+        "id": "57:7407",
+        "name": "Type=Primary, Checked=True, State=Pressed"
+      },
+      {
+        "id": "57:7401",
+        "name": "Type=Primary, Checked=True, State=Focused"
+      },
+      {
+        "id": "57:7400",
+        "name": "Type=Primary, Checked=True, State=Hovered"
+      },
+      {
+        "id": "57:7406",
+        "name": "Type=Primary, Checked=True, State=Enabled"
+      }
+    ]
+  },
+  {
+    "pageName": "Tags",
+    "name": "Tags",
+    "type": "COMPONENT_SET",
+    "id": "65:7696",
+    "childrenCount": 5,
+    "variants": [
+      {
+        "id": "65:7695",
+        "name": "Type=Info"
+      },
+      {
+        "id": "65:7693",
+        "name": "Type=Error"
+      },
+      {
+        "id": "65:7694",
+        "name": "Type=Warning"
+      },
+      {
+        "id": "65:7691",
+        "name": "Type=Success"
+      },
+      {
+        "id": "65:7692",
+        "name": "Type=Inactive"
+      }
+    ]
+  },
+  {
+    "pageName": "Tags",
+    "name": "Status Tag",
+    "type": "COMPONENT_SET",
+    "id": "66:7719",
+    "childrenCount": 5,
+    "variants": [
+      {
+        "id": "66:7718",
+        "name": "Type=Info"
+      },
+      {
+        "id": "66:7717",
+        "name": "Type=Error"
+      },
+      {
+        "id": "66:7716",
+        "name": "Type=Warning"
+      },
+      {
+        "id": "66:7715",
+        "name": "Type=Success"
+      },
+      {
+        "id": "66:7714",
+        "name": "Type=Inactive"
+      }
+    ]
+  },
+  {
+    "pageName": "Indicators",
+    "name": "Indicators",
+    "type": "COMPONENT_SET",
+    "id": "70:7774",
+    "childrenCount": 10,
+    "variants": [
+      {
+        "id": "70:7773",
+        "name": "State=Info, Size=Small"
+      },
+      {
+        "id": "70:7770",
+        "name": "State=Error, Size=Small"
+      },
+      {
+        "id": "70:7769",
+        "name": "State=Warning, Size=Small"
+      },
+      {
+        "id": "70:7767",
+        "name": "State=Success, Size=Small"
+      },
+      {
+        "id": "70:7771",
+        "name": "State=Inactive, Size=Small"
+      },
+      {
+        "id": "70:7766",
+        "name": "State=Info, Size=Large"
+      },
+      {
+        "id": "70:7772",
+        "name": "State=Error, Size=Large"
+      },
+      {
+        "id": "70:7765",
+        "name": "State=Warning, Size=Large"
+      },
+      {
+        "id": "70:7768",
+        "name": "State=Success, Size=Large"
+      },
+      {
+        "id": "70:7764",
+        "name": "State=Inactive, Size=Large"
+      }
+    ]
+  },
+  {
+    "pageName": "Dividers",
+    "name": "Dividers",
+    "type": "COMPONENT_SET",
+    "id": "71:7805",
+    "childrenCount": 4,
+    "variants": [
+      {
+        "id": "71:7802",
+        "name": "Size=Extra Large"
+      },
+      {
+        "id": "71:7801",
+        "name": "Size=Large"
+      },
+      {
+        "id": "71:7804",
+        "name": "Size=Medium"
+      },
+      {
+        "id": "71:7803",
+        "name": "Size=Small"
+      }
+    ]
+  },
+  {
+    "pageName": "Process bar",
+    "name": "Process bar",
+    "type": "COMPONENT_SET",
+    "id": "71:7902",
+    "childrenCount": 11,
+    "variants": [
+      {
+        "id": "71:7901",
+        "name": "Process=0%"
+      },
+      {
+        "id": "71:7900",
+        "name": "Process=10%"
+      },
+      {
+        "id": "71:7898",
+        "name": "Process=20%"
+      },
+      {
+        "id": "71:7896",
+        "name": "Process=30%"
+      },
+      {
+        "id": "71:7899",
+        "name": "Process=40%"
+      },
+      {
+        "id": "71:7893",
+        "name": "Process=50%"
+      },
+      {
+        "id": "71:7897",
+        "name": "Process=60%"
+      },
+      {
+        "id": "71:7895",
+        "name": "Process=70%"
+      },
+      {
+        "id": "71:7894",
+        "name": "Process=80%"
+      },
+      {
+        "id": "71:7892",
+        "name": "Process=90%"
+      },
+      {
+        "id": "71:7891",
+        "name": "Process=100%"
+      }
+    ]
+  },
+  {
+    "pageName": "Tab bar",
+    "name": "Tab bars",
+    "type": "COMPONENT_SET",
+    "id": "74:8054",
+    "childrenCount": 6,
+    "variants": [
+      {
+        "id": "74:8053",
+        "name": "State=Default"
+      },
+      {
+        "id": "74:8052",
+        "name": "State=Active"
+      },
+      {
+        "id": "74:8049",
+        "name": "State=Hovered"
+      },
+      {
+        "id": "74:8048",
+        "name": "State=Focused"
+      },
+      {
+        "id": "74:8051",
+        "name": "State=Pressed"
+      },
+      {
+        "id": "74:8050",
+        "name": "State=Disabled"
+      }
+    ]
+  },
+  {
+    "pageName": "Tab bar",
+    "name": "Tab bars",
+    "type": "COMPONENT_SET",
+    "id": "74:8069",
+    "childrenCount": 6,
+    "variants": [
+      {
+        "id": "74:8064",
+        "name": "Active=None"
+      },
+      {
+        "id": "74:8068",
+        "name": "Active=Second"
+      },
+      {
+        "id": "74:8065",
+        "name": "Active=Third"
+      },
+      {
+        "id": "74:8067",
+        "name": "Active=Fourth"
+      },
+      {
+        "id": "74:8066",
+        "name": "Active=First"
+      },
+      {
+        "id": "74:8063",
+        "name": "Active=Fifth"
+      }
+    ]
+  },
+  {
+    "pageName": "Stepper",
+    "name": "Stepper",
+    "type": "COMPONENT_SET",
+    "id": "77:8465",
+    "childrenCount": 7,
+    "variants": [
+      {
+        "id": "77:8464",
+        "name": "Progress=Step 3"
+      },
+      {
+        "id": "77:8463",
+        "name": "Progress=Step 4"
+      },
+      {
+        "id": "77:8460",
+        "name": "Progress=Step 5"
+      },
+      {
+        "id": "77:8459",
+        "name": "Progress=Step 6"
+      },
+      {
+        "id": "77:8461",
+        "name": "Progress=Step 1"
+      },
+      {
+        "id": "77:8462",
+        "name": "Progress=Step 2"
+      },
+      {
+        "id": "77:8458",
+        "name": "Progress=Step 7"
+      }
+    ]
+  },
+  {
+    "pageName": "Stepper",
+    "name": "Stepper",
+    "type": "COMPONENT_SET",
+    "id": "78:8819",
+    "childrenCount": 10,
+    "variants": [
+      {
+        "id": "78:8818",
+        "name": "State=Completed, Type=End Track"
+      },
+      {
+        "id": "78:8817",
+        "name": "State=Completed, Type=Progress Track"
+      },
+      {
+        "id": "78:8816",
+        "name": "State=Pending, Type=End Track"
+      },
+      {
+        "id": "78:8812",
+        "name": "State=Error, Type=End Track"
+      },
+      {
+        "id": "78:8815",
+        "name": "State=Pending, Type=Progress Track"
+      },
+      {
+        "id": "78:8814",
+        "name": "State=Error, Type=Progress Track"
+      },
+      {
+        "id": "78:8811",
+        "name": "State=Default, Type=End Track"
+      },
+      {
+        "id": "78:8810",
+        "name": "State=Disabled, Type=End Track"
+      },
+      {
+        "id": "78:8809",
+        "name": "State=Default, Type=Progress Track"
+      },
+      {
+        "id": "78:8813",
+        "name": "State=Disabled, Type=Progress Track"
+      }
+    ]
+  },
+  {
+    "pageName": "Maps",
+    "name": "Maps",
+    "type": "COMPONENT_SET",
+    "id": "42:5063",
+    "childrenCount": 3,
+    "variants": [
+      {
+        "id": "42:5062",
+        "name": "Size=Compact"
+      },
+      {
+        "id": "42:5061",
+        "name": "Size=Standard"
+      },
+      {
+        "id": "42:5060",
+        "name": "Size=Wide"
+      }
+    ]
+  },
+  {
+    "pageName": "Charts & Graphs",
+    "name": "Delivery trends card",
+    "type": "COMPONENT",
+    "id": "88:11240",
+    "childrenCount": 2,
+    "variants": []
+  },
+  {
+    "pageName": "Charts & Graphs",
+    "name": "Delay Reasons card",
+    "type": "COMPONENT",
+    "id": "88:11239",
+    "childrenCount": 3,
+    "variants": []
+  },
+  {
+    "pageName": "Charts & Graphs",
+    "name": "Top Delayed Zones card",
+    "type": "COMPONENT",
+    "id": "88:11237",
+    "childrenCount": 2,
+    "variants": []
+  },
+  {
+    "pageName": "Charts & Graphs",
+    "name": "Upcoming Deliveries card",
+    "type": "COMPONENT",
+    "id": "88:11238",
+    "childrenCount": 5,
+    "variants": []
+  },
+  {
+    "pageName": "Charts & Graphs",
+    "name": "Fleet Status card",
+    "type": "COMPONENT",
+    "id": "88:11236",
+    "childrenCount": 2,
+    "variants": []
+  },
+  {
+    "pageName": "Charts & Graphs",
+    "name": "Live Fleet Overview card",
+    "type": "COMPONENT",
+    "id": "88:11235",
+    "childrenCount": 6,
+    "variants": []
+  },
+  {
+    "pageName": "Iconography",
+    "name": "Light Mode Icons",
+    "type": "FRAME",
+    "id": "23:2376",
+    "childrenCount": 0,
+    "variants": []
+  },
+  {
+    "pageName": "Iconography",
+    "name": "Dark Mode Icons",
+    "type": "FRAME",
+    "id": "23:2377",
+    "childrenCount": 0,
+    "variants": []
+  },
+  {
+    "pageName": "Iconography",
+    "name": "Icons",
+    "type": "COMPONENT_SET",
+    "id": "23:2644",
+    "childrenCount": 102,
+    "variants": [
+      {
+        "id": "23:2550",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2581",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2556",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2554",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2575",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2583",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2582",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2568",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2546",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2586",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2576",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2558",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2574",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2573",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2551",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2567",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2571",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2564",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2579",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2591",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2569",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2566",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2565",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2562",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2570",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2561",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2560",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2563",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2584",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2559",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2557",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2555",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2577",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2592",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2553",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2580",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2552",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2549",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2548",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2589",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2572",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2587",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2547",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2588",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2545",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2585",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2544",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2578",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2590",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2543",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2542",
+        "name": "Mode=Light"
+      },
+      {
+        "id": "23:2640",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2597",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2608",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2641",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2636",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2635",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2634",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2639",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2605",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2642",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2628",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2624",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2615",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2627",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2621",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2625",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2619",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2637",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2595",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2632",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2631",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2616",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2633",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2630",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2614",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2611",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2629",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2610",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2623",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2609",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2613",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2607",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2626",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2603",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2638",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2602",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2600",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2643",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2599",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2618",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2606",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2612",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2598",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2596",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2594",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2617",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2593",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2601",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2622",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2604",
+        "name": "Mode=Dark"
+      },
+      {
+        "id": "23:2620",
+        "name": "Mode=Dark"
+      }
+    ]
+  }
+]

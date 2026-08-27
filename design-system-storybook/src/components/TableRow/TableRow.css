@@ -1,0 +1,34 @@
+.uedp-table-row {
+  border-bottom: 1px solid var(--uedp-slate-200, #e2e8f0);
+  background-color: var(--uedp-white, #ffffff);
+  transition: background-color 0.15s ease;
+}
+
+.uedp-table-row:hover:not(.uedp-table-row--header) {
+  background-color: var(--uedp-slate-50, #f8fafc);
+}
+
+.uedp-table-row--selected {
+  background-color: var(--uedp-indigo-50, #eef2ff) !important;
+}
+
+.uedp-table-row--header {
+  background-color: var(--uedp-slate-50, #f8fafc);
+  font-weight: 600;
+  color: var(--uedp-slate-600, #475569);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.uedp-table-row__cell {
+  padding: 14px 16px;
+  font-size: 13px;
+  color: var(--uedp-slate-800, #1e293b);
+  vertical-align: middle;
+}
+
+.uedp-table-row__cell--checkbox {
+  width: 48px;
+  padding-left: 20px;
+}

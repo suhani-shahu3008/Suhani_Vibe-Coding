@@ -1,0 +1,8 @@
+.uedp-tab-bar-multi {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--uedp-slate-200, #e2e8f0);
+  background-color: var(--uedp-white, #ffffff);
+  width: 100%;
+  overflow-x: auto;
+}

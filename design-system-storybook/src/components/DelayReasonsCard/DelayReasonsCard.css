@@ -1,0 +1,55 @@
+.uedp-delay-reasons__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.uedp-delay-reasons__donut-wrap {
+  width: 140px;
+  height: 140px;
+}
+
+.uedp-delay-reasons__svg {
+  width: 100%;
+  height: 100%;
+}
+
+.uedp-delay-reasons__legend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  min-width: 140px;
+}
+
+.uedp-delay-reasons__legend-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uedp-delay-reasons__label-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.uedp-delay-reasons__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+}
+
+.uedp-delay-reasons__label {
+  font-size: 13px;
+  color: var(--uedp-slate-700, #334155);
+  font-weight: 500;
+}
+
+.uedp-delay-reasons__pct {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--uedp-slate-900, #0f172a);
+}

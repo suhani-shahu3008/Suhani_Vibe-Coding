@@ -1,0 +1,22 @@
+.uedp-table-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--uedp-rounded-2xl, 16px);
+  border: 1px solid var(--uedp-slate-200, #e2e8f0);
+  background-color: var(--uedp-white, #ffffff);
+  box-shadow: 0 4px 20px -4px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  width: 100%;
+}
+
+.uedp-table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.uedp-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: inherit;
+}

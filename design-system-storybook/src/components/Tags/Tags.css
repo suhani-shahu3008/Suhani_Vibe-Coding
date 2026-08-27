@@ -1,0 +1,56 @@
+.uedp-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: var(--uedp-rounded-md, 6px);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  user-select: none;
+}
+
+.uedp-tag--info {
+  background-color: var(--uedp-blue-50, #eff6ff);
+  color: var(--uedp-blue-700, #1d4ed8);
+  border: 1px solid var(--uedp-blue-200, #bfdbfe);
+}
+
+.uedp-tag--success {
+  background-color: var(--uedp-emerald-50, #ecfdf5);
+  color: var(--uedp-emerald-700, #047857);
+  border: 1px solid var(--uedp-emerald-200, #a7f3d0);
+}
+
+.uedp-tag--warning {
+  background-color: var(--uedp-amber-50, #fffbeb);
+  color: var(--uedp-amber-700, #b45309);
+  border: 1px solid var(--uedp-amber-200, #fde68a);
+}
+
+.uedp-tag--error {
+  background-color: var(--uedp-red-50, #fef2f2);
+  color: var(--uedp-red-700, #b91c1c);
+  border: 1px solid var(--uedp-red-200, #fecaca);
+}
+
+.uedp-tag--inactive {
+  background-color: var(--uedp-slate-100, #f1f5f9);
+  color: var(--uedp-slate-600, #475569);
+  border: 1px solid var(--uedp-slate-200, #e2e8f0);
+}
+
+.uedp-tag__remove {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.uedp-tag__remove:hover {
+  opacity: 1;
+}
