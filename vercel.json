@@ -1,7 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "cd design-system-storybook && npm run build-storybook",
+  "buildCommand": "cd design-system-storybook && npm ci && npm run build-storybook",
   "outputDirectory": "design-system-storybook/storybook-static",
+  "installCommand": "echo 'skipping root install'",
   "cleanUrls": true,
   "routes": [
     {
